@@ -1,7 +1,7 @@
 package com.funglejunk.brewwatch.model
 
 import androidx.lifecycle.Observer
-import com.funglejunk.brewwatch.domain.Timer
+import com.funglejunk.brewwatch.domain.time.Timer
 
 interface TimerStateViewModelConsumer : Observer<Timer.TimerState> {
 

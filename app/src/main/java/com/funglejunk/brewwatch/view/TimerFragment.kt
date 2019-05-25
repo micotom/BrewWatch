@@ -10,10 +10,10 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProviders
 import com.funglejunk.brewwatch.R
-import com.funglejunk.brewwatch.domain.SharedPrefRepo
-import com.funglejunk.brewwatch.domain.TimeFormat
-import com.funglejunk.brewwatch.domain.Timer
-import com.funglejunk.brewwatch.domain.TimerService
+import com.funglejunk.brewwatch.domain.persistence.SharedPrefRepo
+import com.funglejunk.brewwatch.domain.time.TimeFormat
+import com.funglejunk.brewwatch.domain.time.Timer
+import com.funglejunk.brewwatch.domain.service.TimerService
 import com.funglejunk.brewwatch.model.Constants
 import com.funglejunk.brewwatch.model.TimerDurationViewModelConsumer
 import com.funglejunk.brewwatch.model.TimerStateViewModelConsumer

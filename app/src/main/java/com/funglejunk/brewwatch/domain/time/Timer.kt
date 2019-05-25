@@ -1,4 +1,4 @@
-package com.funglejunk.brewwatch.domain
+package com.funglejunk.brewwatch.domain.time
 
 import android.os.Handler
 import io.reactivex.Observable
@@ -24,7 +24,8 @@ class Timer {
         fun stop()
     }
 
-    class HandlerTicker(private val intervalMs: Long, override val onTick: (Long) -> Unit) : Ticker {
+    class HandlerTicker(private val intervalMs: Long, override val onTick: (Long) -> Unit) :
+        Ticker {
 
         private val handler = Handler()
 

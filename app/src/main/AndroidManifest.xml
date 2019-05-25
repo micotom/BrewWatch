@@ -16,9 +16,9 @@
         android:theme="@style/AppTheme"
         tools:ignore="AllowBackup,GoogleAppIndexingWarning">
         <service
-            android:name=".domain.TimerService"
+            android:name=".domain.service.TimerService"
             android:enabled="true" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".view.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

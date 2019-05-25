@@ -1,5 +1,6 @@
-package com.funglejunk.brewwatch.domain
+package com.funglejunk.brewwatch.domain.persistence
 
+import com.funglejunk.brewwatch.domain.time.Timer
 import io.reactivex.Single
 import java.time.Duration
 

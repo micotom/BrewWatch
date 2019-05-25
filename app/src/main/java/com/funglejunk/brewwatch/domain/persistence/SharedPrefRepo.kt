@@ -1,8 +1,9 @@
-package com.funglejunk.brewwatch.domain
+package com.funglejunk.brewwatch.domain.persistence
 
 import android.content.Context
 import android.content.SharedPreferences
 import android.preference.PreferenceManager
+import com.funglejunk.brewwatch.domain.time.Timer
 import com.funglejunk.brewwatch.model.Constants
 import io.reactivex.Single
 import io.reactivex.schedulers.Schedulers

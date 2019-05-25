@@ -3,9 +3,9 @@ package com.funglejunk.brewwatch.model
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import com.funglejunk.brewwatch.domain.PersistenceRepo
 import com.funglejunk.brewwatch.domain.ServiceRepository
-import com.funglejunk.brewwatch.domain.Timer
+import com.funglejunk.brewwatch.domain.persistence.PersistenceRepo
+import com.funglejunk.brewwatch.domain.time.Timer
 import io.reactivex.disposables.CompositeDisposable
 import java.time.Duration
 
@@ -13,7 +13,8 @@ class TimerViewModel : ViewModel(), TimerViewModelInterface {
 
     private var isInitializedFromRepo = false
 
-    override val currentTimerState: LiveData<Timer.TimerState> = MutableLiveData(Timer.TimerState.Idle)
+    override val currentTimerState: LiveData<Timer.TimerState> = MutableLiveData(
+        Timer.TimerState.Idle)
 
     override val currentDuration: LiveData<Duration> = MutableLiveData()
 

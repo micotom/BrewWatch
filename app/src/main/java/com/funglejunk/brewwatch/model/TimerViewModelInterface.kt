@@ -1,8 +1,8 @@
 package com.funglejunk.brewwatch.model
 
 import androidx.lifecycle.LiveData
-import com.funglejunk.brewwatch.domain.PersistenceRepo
-import com.funglejunk.brewwatch.domain.Timer
+import com.funglejunk.brewwatch.domain.persistence.PersistenceRepo
+import com.funglejunk.brewwatch.domain.time.Timer
 import java.time.Duration
 
 interface TimerViewModelInterface {

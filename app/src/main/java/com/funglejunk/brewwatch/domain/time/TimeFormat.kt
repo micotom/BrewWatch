@@ -1,4 +1,4 @@
-package com.funglejunk.brewwatch.domain
+package com.funglejunk.brewwatch.domain.time
 
 import java.time.Duration
 
